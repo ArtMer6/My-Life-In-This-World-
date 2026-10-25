@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Блог</title>
+    <link rel="icon" href="graphics/Yes2.png" type="image/png">
+    <!-- Подключаем внешний файл стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-wrapper">
+
+        <!-- ШАПКА -->
+        <header class="header">
+            <!-- Логотип (твоя картинка) -->
+            <div class="logo block">
+                <img src="graphics/Yes2.png" alt="Лого">
+            </div>
+            
+            <!-- Заголовок по центру -->
+            <div class="site-title block">
+                <h1>Привет, мир!</h1>
+            </div>
+            
+            <!-- Правый блок шапки -->
+            <div class="header-right">
+                <div class="contact-info block">Контактная<br>информация</div>
+                <a href="dev.htm" class="contact-info block" style="text-decoration: none; color: rgb(0, 0, 0); display: block;">Авторизация</a>
+            </div>
+        </header>
+
+        <!-- ВЕРХНЕЕ МЕНЮ -->
+        <nav class="top-menu block">
+            <a href="#main">Главная</a> | 
+            <a href="#about">Обо мне</a> | 
+            <a href="#contact">Контакты</a>
+        </nav>
+
+        <!-- ОСНОВНАЯ ОБЛАСТЬ (3 колонки) -->
+        <div class="content-wrapper">
+
+            <!-- ЛЕВАЯ КОЛОНКА -->
+            <aside class="left-column">
+                <div class="menu-catalog block">
+                    <h3>Меню каталог</h3>
+                    <ul>
+                        <li>Пункт 1</li>
+                        <li>Пункт 2</li>
+                        <li>Пункт 3</li>
+                    </ul>
+                </div>
+                <div class="poll block">Опрос</div>
+                <div class="informer block">Информер</div>
+            </aside>
+
+            <!-- ЦЕНТРАЛЬНАЯ КОЛОНКА (Твой основной контент) -->
+            <main class="center-column block" id="main">
+                <article>
+                    <h2>Заголовок второго уровня</h2>
+                    <p>Это обычный текстовый абзац. Внутри него можно выделять слова:
+                        <b>жирным шрифтом</b>, 
+                        <i>курсивом</i> или 
+                        <u>подчеркиванием</u>.
+                    </p>
+                    <p>Чтобы начать текст с новой строки без создания нового абзаца,
+                        используется тег &lt;br&gt;. <br> Вот так.
+                    </p>
+
+                    <h3>Заголовок третьего уровня</h3>
+                    <ul>
+                        <li>Первый пункт списка</li>
+                        <li>Второй пункт списка</li>
+                        <li>Третий пункт списка</li>
+                    </ul>
+
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="width: 50%;">
+                                <img src="graphics/Yes2.png" alt="Пример картинки" style="max-width: 100%;">
+                            </td>
+                            <td style="vertical-align: top; padding-left: 20px;">
+                                <ol>
+                                    <li>Первый пункт списка</li>
+                                    <li>Второй пункт списка</li>
+                                    <li>Третий пункт списка</li>
+                                </ol>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </article>
+            </main>
+
+            <!-- ПРАВАЯ КОЛОНКА -->
+            <aside class="right-column">
+                <div class="text-block-side block">
+                    <h3>Правый блок</h3>
+                    <p>Здесь может быть дополнительный текст, ссылки или реклама.</p>
+                </div>
+                <div class="informer-side block">Информер</div>
+            </aside>
+
+        </div>
+
+        <!-- НИЖНЕЕ МЕНЮ -->
+        <nav class="bottom-menu block">
+            Нижнее меню
+        </nav>
+
+        <!-- ФУТЕР -->
+        <footer class="footer">
+            <div class="footer-text block">
+                2026 E.S.G. | У меня нет прав.
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
